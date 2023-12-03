@@ -3,7 +3,7 @@ import styles from './Evidence.module.css';
 
 const cardData = [
   {
-    id: 1,
+    id: 10,
     content: (
       <p className='text-gray-700 leading-7'>
         We have <strong>testing data</strong> that compares the performance of
@@ -12,7 +12,7 @@ const cardData = [
     ),
   },
   {
-    id: 2,
+    id: 20,
     content: (
       <p className='text-gray-700 leading-7'>
         For example, our new design has an efficiency of <strong>0.54</strong>,
@@ -23,7 +23,7 @@ const cardData = [
     ),
   },
   {
-    id: 3,
+    id: 30,
     content: (
       <p className='text-gray-700 leading-7'>
         <strong>The higher efficiency</strong> of our new wind turbine design

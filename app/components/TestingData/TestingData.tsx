@@ -13,7 +13,7 @@ const TestingData = () => {
           results
         </p>
       </header>
-      <div className='flex items-center justify-center'>
+      <div className='flex items-center justify-center px-4'>
         <Image
           src={testing1}
           alt='A chart evidence of blue peak innovations'

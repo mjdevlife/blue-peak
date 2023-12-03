@@ -76,7 +76,7 @@ const Performance = () => {
             className='max-w-full'
           />
         </div>
-        <div className='mt-8 leading-7'>
+        <div className='mt-8 leading-7 px-3'>
           <p>
             In addition to the immediate benefits of higher power generation and
             lower operating costs, the improved efficiency of our new wind
@@ -94,10 +94,10 @@ const Performance = () => {
         </div>
       </div>
       <div className={`container mx-auto ${styles.comparisonCard} mt-10`}>
-        <div>
+        <div className='px-4'>
           <PerformanceCard item={items[0]} />
         </div>
-        <div>
+        <div className='px-4'>
           <PerformanceCard item={items[1]} />
         </div>
       </div>

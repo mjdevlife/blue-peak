@@ -11,14 +11,14 @@ const Hero = () => {
         alt='Blue Peak Innovations hero image'
         className='absolute inset-0 -z-10 h-full w-full object-cover brightness-50'
       />
-      <div className='mx-auto max-w-2xl py-32 sm:py-48 lg:py-56'>
+      <div className='mx-auto max-w-2xl py-32 px-4 sm:py-48 lg:py-56'>
         <div className='hidden sm:mb-8 sm:flex sm:justify-center'>
-          <div className='relative rounded-full px-3 py-1 text-3xl leading-6 text-gray-100 ring-1 ring-white/10 hover:ring-white/20'>
+          <div className='relative rounded-full px-3 py-1 text-2xl  leading-6 text-gray-100 ring-1 ring-white/10 hover:ring-white/20'>
             Blue Peak Innovations
           </div>
         </div>
         <div className='text-center'>
-          <h1 className='text-3xl font-bold  text-white sm:text-6xl'>
+          <h1 className='text-2xl font-bold  text-white sm:text-4xl'>
             High Performance Flat and Thin Wind Turbine
           </h1>
           <p className='mt-6 text-lg leading-8 text-white'>

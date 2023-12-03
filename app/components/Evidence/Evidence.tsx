@@ -8,7 +8,7 @@ import CardList from './CardList';
 
 const Evidence = () => {
   return (
-    <section className='container mx-auto mt-12'>
+    <section className='md:container mx-auto mt-10'>
       <h2 className='text-center 3xl sm:text-5xl font-bold'>Evidence</h2>
       <p className='leading-6 text-center py-6 text-gray-700'>
         Comparison of the performance of our new design with existing wind

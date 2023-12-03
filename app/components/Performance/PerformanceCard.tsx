@@ -25,9 +25,11 @@ const PerformanceCard = ({ item }: Props) => {
         <h3 className={`${styles.heading} font-semibold text-2xl`}>
           {item.title}
         </h3>
-        <ul className='list-disc leading-10 mt-5 ml-5'>
-          {item.content.map((el) => (
-            <li key={item.id}>{el}</li>
+        <ul className='list-disc leading-6 mt-5 ml-5'>
+          {item.content.map((el, index) => (
+            <li key={index} className='mb-4'>
+              {el}
+            </li>
           ))}
         </ul>
       </div>
