@@ -42,6 +42,7 @@ const items = [
       'The Efficiency Of Wind Wing Is More Than 20% Higher Than Before',
       'Power Wing Efficiency Is More Than 25% Higher',
     ],
+    color: '#44DA4C',
     icon: <LikeIcon />,
   },
   {
@@ -49,6 +50,7 @@ const items = [
     title: 'Disadvantage of the Existing Wind Turbines',
 
     icon: <DisLikeIcon />,
+    color: '#DC3545',
     content: [
       'The Production Cost Of Wings Is High',
       'The Wing Is Heavy And Inefficient​',

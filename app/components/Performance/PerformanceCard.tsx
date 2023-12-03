@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import LikeIcon from './LikeIcon';
+
 import styles from './Performance.module.css';
 
 type ItemProp = {
@@ -7,6 +7,7 @@ type ItemProp = {
   title: string;
   content: string[];
   icon: ReactNode;
+  color: string;
 };
 
 interface Props {
@@ -17,7 +18,10 @@ const PerformanceCard = ({ item }: Props) => {
   return (
     <div className={styles.cardOuter}>
       <div className={styles.likerPostion}>{item.icon}</div>
-      <div className={`${styles.performanceCard} mt-10`}>
+      <div
+        className={`${styles.performanceCard} mt-10 border-b-orange-400`}
+        style={{ borderBottom: `4px solid ${item.color}` }}
+      >
         <h3 className={`${styles.heading} font-semibold text-2xl`}>
           {item.title}
         </h3>

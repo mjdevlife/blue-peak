@@ -1,4 +1,5 @@
 import Evidence from './components/Evidence/Evidence';
+import Footer from './components/Footer';
 import Hero from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
 import LikeIcon from './components/Performance/LikeIcon';
@@ -13,6 +14,7 @@ const Home = () => {
       <Evidence />
       <TestingData />
       <Performance />
+      <Footer />
     </>
   );
 };
