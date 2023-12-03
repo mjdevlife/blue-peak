@@ -1,0 +1,40 @@
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.heading {
+  color: #08235b;
+  padding: 1rem;
+}
+
+.performanceCard {
+  border: 1px solid #eee;
+  padding: 1rem 2rem;
+  border-bottom: 4px solid #37b53e;
+}
+
+.cardOuter {
+  position: relative;
+}
+
+.likerPostion {
+  position: absolute;
+  top: -40px;
+  left: 50px;
+}
+
+.likeIcon {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comparisonCard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}

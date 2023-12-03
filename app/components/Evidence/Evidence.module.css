@@ -1,0 +1,31 @@
+.statsContainer {
+  margin: 20px 40px;
+  gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+  border: 1px solid #eee;
+  padding: 15px 20px;
+  border-left-width: 2px;
+  border-left-color: #bdbdbd;
+  margin-bottom: 30px;
+}
+
+.charts {
+  margin: 20px 40px;
+  gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 768px) {
+  .charts {
+    grid-template-columns: 1fr;
+  }
+
+  .statsContainer {
+    grid-template-columns: 1fr;
+  }
+}
