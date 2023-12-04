@@ -9,7 +9,9 @@ const Navbar = () => {
   return (
     <header className={styles.container}>
       <div className='flex items-center justify-center'>
-        <Image src={logo} alt='Blue Peak Innovations' height={80} />
+        <Link href='/'>
+          <Image src={logo} alt='Blue Peak Innovations' height={80} />
+        </Link>
       </div>
       <div>
         <ul className='list-none sm:flex space-x-10 items-center justify-center py-4'>
