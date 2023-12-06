@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react';
-import { BiLike } from 'react-icons/bi';
+import { BiDislike } from 'react-icons/bi';
+
 import styles from './Performance.module.css';
 
 interface Props {
@@ -10,7 +11,7 @@ interface Props {
 const DisLikeIcon = () => {
   return (
     <div className={`${styles.likeIcon} bg-[#DC3545]`}>
-      <BiLike size='2rem' color='white' />
+      <BiDislike size='2rem' color='white' />
     </div>
   );
 };
