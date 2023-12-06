@@ -1,6 +1,5 @@
-import Image from 'next/image';
 import styles from './TestingData.module.css';
-import testing1 from '/public/images/testing1.png';
+import SimpleSlider from './Slider';
 
 const TestingData = () => {
   return (
@@ -15,12 +14,8 @@ const TestingData = () => {
           results
         </p>
       </header>
-      <div className='flex items-center justify-center px-4'>
-        <Image
-          src={testing1}
-          alt='A chart evidence of blue peak innovations'
-          className='max-w-full py-10'
-        />
+      <div className='px-4'>
+        <SimpleSlider />
       </div>
     </section>
   );
