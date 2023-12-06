@@ -16,7 +16,7 @@ const Maintenance = () => {
         </p>
       </header>
       <div className={`${styles.contenContainer} md:container mx-auto`}>
-        <div className='-mb-8 -mt-5'>
+        <div className='-mb-[200px] -mt-5'>
           <div className='flex items-center justify-center'>
             <Image
               src={cone}

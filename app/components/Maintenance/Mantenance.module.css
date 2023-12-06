@@ -9,17 +9,17 @@
   padding-bottom: 5rem;
 }
 
-@media screen and (max-width: 768px) {
-  .contenContainer {
-    grid-template-columns: 1fr;
-  }
-
+@media screen and (max-width: 480px) {
   .maintenance {
     padding: 0rem;
   }
 }
 
 @media screen and (max-width: 480px) {
+  .contenContainer {
+    grid-template-columns: 1fr;
+  }
+
   .alignCardsMobile {
     margin-top: 200px;
   }
