@@ -1,0 +1,157 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/components/Evidence/Evidence.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.Evidence_statsContainer__otHjv {
+  margin: 1rem;
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.Evidence_card__rpNDt {
+  border: 1px solid #eee;
+  padding: 1rem 2rem;
+  border-left-width: 2px;
+  border-left-color: #bdbdbd;
+  margin-bottom: 30px;
+}
+
+.Evidence_charts__hRhxZ {
+  margin: 1rem 2rem;
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 768px) {
+  .Evidence_charts__hRhxZ {
+    grid-template-columns: 1fr;
+  }
+
+  .Evidence_statsContainer__otHjv {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/components/Hero/Hero.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.Hero_gridContainer__cOrc8 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  padding: 8rem 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .Hero_gridContainer__cOrc8 {
+    grid-template-columns: 1fr;
+  }
+
+  .Hero_turbine__MLXcf {
+    padding: 3rem 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Hero_gridContainer__cOrc8 {
+    margin-top: -30px;
+    padding: 5rem 1rem;
+  }
+}
+
+.Hero_turbine__MLXcf {
+  margin-top: -50px;
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/components/Maintenance/Mantenance.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+.Mantenance_maintenance__RfqVc {
+  background-color: #f7f9fb;
+  padding: 5rem;
+}
+
+.Mantenance_contenContainer__bRBnS {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/components/Navbar/Navbar.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Navbar_container__79ptT {
+  margin: 0 auto;
+  padding: 0.625rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 768px) {
+  .Navbar_container__79ptT {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/components/Performance/Performance.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.Performance_cardContainer__i4gmw {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.Performance_heading__cJitp {
+  color: #08235b;
+  padding: 1rem;
+}
+
+.Performance_performanceCard__8lIN4 {
+  border: 1px solid #eee;
+  padding: 1rem 2rem;
+  margin-bottom: 30px;
+}
+
+.Performance_cardOuter__NAGIb {
+  position: relative;
+}
+
+.Performance_likerPostion__YTWht {
+  position: absolute;
+  top: -40px;
+  left: 50px;
+}
+
+.Performance_likeIcon__5KD9B {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Performance_comparisonCard__5CN5o {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .Performance_cardContainer__i4gmw {
+    grid-template-columns: 1fr;
+  }
+
+  .Performance_comparisonCard__5CN5o {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/components/TestingData/TestingData.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.TestingData_testingData__4hYkM {
+  background-color: #f7f9fb;
+}
+

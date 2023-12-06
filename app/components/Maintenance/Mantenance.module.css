@@ -1,0 +1,26 @@
+.maintenance {
+  background-color: #f7f9fb;
+}
+
+.contenContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .contenContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .maintenance {
+    padding: 0rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .alignCardsMobile {
+    margin-top: 200px;
+  }
+}
