@@ -10,7 +10,7 @@ const Navbar = () => {
     <header className={styles.container}>
       <div className='flex items-center justify-center'>
         <Link href='/'>
-          <Image src={logo} alt='Blue Peak Innovations' height={80} />
+          <Image src={logo} alt='Blue Peak Innovations' height={60} />
         </Link>
       </div>
       <div>
