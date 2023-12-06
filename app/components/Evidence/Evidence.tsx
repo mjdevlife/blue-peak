@@ -35,13 +35,6 @@ const Evidence = () => {
               className='max-w-full'
             />
           </figure>
-          <figure>
-            <Image
-              src={chart2}
-              alt='A chart evidence of blue peak innovations'
-              className='max-w-full'
-            />
-          </figure>
         </div>
         <div className='mt-10'>
           <figure>
@@ -52,6 +45,13 @@ const Evidence = () => {
             />
           </figure>
         </div>
+      </div>
+      <div className='flex justify-center items-center px-4'>
+        <Image
+          src={chart2}
+          alt='A chart evidence of blue peak innovations'
+          className='max-w-full'
+        />
       </div>
     </section>
   );
