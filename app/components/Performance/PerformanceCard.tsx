@@ -22,7 +22,7 @@ const PerformanceCard = ({ item }: Props) => {
         className={`${styles.performanceCard} mt-10 border-b-orange-400`}
         style={{ borderBottom: `4px solid ${item.color}` }}
       >
-        <h3 className={`${styles.heading} font-semibold text-2xl`}>
+        <h3 className={`${styles.heading} font-semibold text-xl`}>
           {item.title}
         </h3>
         <ul className='list-disc leading-6 mt-5 ml-5'>

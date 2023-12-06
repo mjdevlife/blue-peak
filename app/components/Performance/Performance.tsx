@@ -64,7 +64,7 @@ const Performance = () => {
   return (
     <section className='mx-auto'>
       <header className='pt-10'>
-        <h2 className='text-center 3xl sm:text-5xl font-bold'>
+        <h2 className='text-center text-2xl sm:text-5xl font-bold px-1'>
           High Performance Flat and Thin Wind Turbine
         </h2>
       </header>

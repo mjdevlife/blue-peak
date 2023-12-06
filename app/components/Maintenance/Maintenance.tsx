@@ -7,7 +7,7 @@ const Maintenance = () => {
   return (
     <section className={`${styles.maintenance} mb-24 mt-10 mx-auto`}>
       <header className='px-4 py-8'>
-        <h2 className='text-center 3xl sm:text-5xl font-bold'>
+        <h2 className='text-center text-2xl sm:text-5xl font-bold'>
           Manufacturing and Maintenance
         </h2>
         <p className='leading-6 text-center py-6 text-gray-700'>
