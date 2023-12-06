@@ -6,7 +6,7 @@ import fun from '/public/images/per_fun.png';
 
 const Hero = () => {
   return (
-    <div className='relative isolate overflow-hidden pt-14 '>
+    <div className='relative isolate overflow-hidden pt-14 bg-[#092E43]'>
       <Image
         src={hero}
         alt='Blue Peak Innovations hero image'
