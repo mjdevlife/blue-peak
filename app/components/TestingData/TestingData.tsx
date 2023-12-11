@@ -1,7 +1,12 @@
+'use client';
 import styles from './TestingData.module.css';
 import SimpleSlider from './Slider';
+import { useViewportSize } from '@mantine/hooks';
+import MobileSlider from './MobileSlider';
 
 const TestingData = () => {
+  const { width } = useViewportSize();
+
   return (
     <section className={`${styles.testingData} mx-auto`}>
       <header className='pt-10'>
@@ -15,7 +20,7 @@ const TestingData = () => {
         </p>
       </header>
       <div className='px-4'>
-        <SimpleSlider />
+        {width < 768 ? <MobileSlider /> : <SimpleSlider />}
       </div>
     </section>
   );
