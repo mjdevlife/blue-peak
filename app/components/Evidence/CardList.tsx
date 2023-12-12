@@ -15,10 +15,10 @@ const cardData = [
     id: 20,
     content: (
       <p className='text-gray-700 leading-7'>
-        For example, our new design has an efficiency of <strong>0.54</strong>,
-        significantly higher than the <strong>0.5</strong> efficiency of many
-        traditional designs. This improved efficiency translates into higher
-        power generation and lower operating costs for our customers.
+        For example, our flat and thin wind turbines design has an efficiency of{' '}
+        <strong>0.5437</strong>, significantly higher than efficiency of many
+        other traditional design. This improved efficiency translates into
+        higher power generation and lower operating costs for our customers.
       </p>
     ),
   },
@@ -28,7 +28,7 @@ const cardData = [
       <p className='text-gray-700 leading-7'>
         <strong>The higher efficiency</strong> of our new wind turbine design
         means that it is able to generate more power in low wind conditions,
-        resulting in a more consistent and
+        resulting in a more consistent and{' '}
         <strong>reliable source of power</strong>. This, in turn, leads to{' '}
         <strong>lower operating costs</strong> for our customers, as they are
         able to generate more power with the same amount of wind energy.
