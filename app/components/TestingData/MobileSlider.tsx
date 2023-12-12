@@ -62,18 +62,17 @@ export default function MobileSlider() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
   };
 
   return (
     <div className='container mx-auto'>
       <Slider {...settings} className='text-white'>
         {images.map((img) => (
-          <div key={img.id}>
+          <div key={img.id} className='ml-[0px] xl:ml-[200px]'>
             <Image
               src={img.src}
               alt='A chart evidence of blue peak innovations'
-              className='max-w-full py-10 lg:ml-[200px]'
+              className='max-w-full py-10'
             />
           </div>
         ))}

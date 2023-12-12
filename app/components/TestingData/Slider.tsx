@@ -16,24 +16,23 @@ export default function SimpleSlider() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
   };
 
   return (
     <div className='container mx-auto'>
       <Slider {...settings} className='text-white'>
-        <div>
+        <div className='ml-[0px] xl:ml-[200px]'>
           <Image
             src={slider1}
             alt='A chart evidence of blue peak innovations'
-            className='max-w-full py-10 lg:ml-[200px]'
+            className='max-w-full py-10'
           />
         </div>
-        <div>
+        <div className='ml-[0px] xl:ml-[200px]'>
           <Image
             src={slider2}
             alt='A chart evidence of blue peak innovations'
-            className='max-w-full py-10 lg:ml-[200px]'
+            className='max-w-full py-10'
           />
         </div>
       </Slider>
