@@ -15,9 +15,9 @@ const cardData = [
     id: 20,
     content: (
       <p className='text-gray-700 leading-7'>
-        For example, our newly developed flat wind turbine has an efficiency of
-        <strong>0.5437</strong>. It is much more higher than wind turbine that
-        has been developed until now.
+        For example, our newly developed flat wind turbine has an efficiency of{' '}
+        <strong>0.5437</strong>.&nbsp; It is much more higher than wind turbine
+        that has been developed until now.
       </p>
     ),
   },
